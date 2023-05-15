@@ -1,3 +1,4 @@
+@prefix fdpo: <https://w3id.org/fdp/fdp-o#>.
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix lcc: <http://id.loc.gov/authorities/classification/>.
@@ -9,7 +10,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<https://w3id.org/ontouml-models/model/bernasconi2023fair-principles/> a dcat:Dataset, mod:SemanticArtefact;
+<https://w3id.org/ontouml-models/model/9c61d241-d42d-46e6-9c07-7983dff94e9f/> a dcat:Dataset, mod:SemanticArtefact, dcat:Resource;
+    dct:isPartOf <https://w3id.org/ontouml-models/catalog/b663ca18-8085-44a7-bcfe-2c2b5ba1faa8>;
     dct:title "OntoUML FAIR Principles Schema";
     dct:issued "2023"^^xsd:gYear;
     dcat:theme lcc:Z;
@@ -23,6 +25,7 @@
     dct:source <https://www.researchgate.net/publication/369850668_Ontological_representation_of_FAIR_principles_A_blueprint_for_FAIRer_data_sources>;
     ocmv:representationStyle ocmv:OntoumlStyle;
     ocmv:ontologyType ocmv:Domain;
-    ocmv:storageUrl "https://github.com/OntoUML/ontouml-models/tree/master/models/bernasconi2023fair-principles"^^xsd:anyURI.
-<https://w3id.org/ontouml-models> dcat:dataset <https://w3id.org/ontouml-models/model/bernasconi2023fair-principles/>.
-<https://w3id.org/ontouml-models/model/bernasconi2023fair-principles/> dcat:distribution <https://w3id.org/ontouml-models/turtle/bernasconi2023fair-principles/>, <https://w3id.org/ontouml-models/json/bernasconi2023fair-principles/>, <https://w3id.org/ontouml-models/vpp/bernasconi2023fair-principles/>, <https://w3id.org/ontouml-models/original-diagram/bernasconi2023fair-principles/Acessibility>, <https://w3id.org/ontouml-models/original-diagram/bernasconi2023fair-principles/Findability-Interoperability>, <https://w3id.org/ontouml-models/original-diagram/bernasconi2023fair-principles/Reusability>.
+    ocmv:storageUrl "https://github.com/OntoUML/ontouml-models/tree/master/models/bernasconi2023fair-principles"^^xsd:anyURI;
+    fdpo:metadataIssued "2023-05-15T15:35:22.555513082Z"^^xsd:dateTime;
+    fdpo:metadataModified "2023-05-15T15:35:22.555513082Z"^^xsd:dateTime .
+    <https://w3id.org/ontouml-models/model/9c61d241-d42d-46e6-9c07-7983dff94e9f> dcat:distribution <https://w3id.org/ontouml-models/distribution/fe6126d5-8948-44bf-a407-806e9adc3a99/>, <https://w3id.org/ontouml-models/distribution/c0c3c0c6-a672-4d40-9940-fbf2607dae9a/>, <https://w3id.org/ontouml-models/distribution/879faadf-c62e-432d-9dfb-85c0f8d8c2b5/>, <https://w3id.org/ontouml-models/distribution/68bc50cd-0771-4cf6-bc71-409ecab497af>, <https://w3id.org/ontouml-models/distribution/7a4e501a-fb40-4707-8b77-a7b0d6170c1a>, <https://w3id.org/ontouml-models/distribution/41b62a3b-e298-4e9f-bf3d-6018b491c5cc>.
